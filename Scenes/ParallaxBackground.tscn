@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Pixel Platformer Assets 1/background.png" type="Texture" id=1]
+
+[node name="ParallaxBackground" type="ParallaxBackground"]
+scroll_base_scale = Vector2( 0.5, 1 )
+scroll_ignore_camera_zoom = true
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 1000, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxLayer"]
+position = Vector2( 513.364, 300.836 )
+scale = Vector2( 3.63393, 2.11294 )
+texture = ExtResource( 1 )

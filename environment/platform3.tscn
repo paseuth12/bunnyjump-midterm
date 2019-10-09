@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://GFX/Environment/ground_snow.png" type="Texture" id=1]
+
+[node name="platform3" type="StaticBody2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -181.974, -46.8395, 174.694, -48.5542, 184.982, -40.8379, 190.984, -28.8346, 188.412, -15.1166, 160.119, 34.6111, -161.397, 47.4717, -191.405, -15.974, -190.548, -34.8362 )
